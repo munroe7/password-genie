@@ -1,7 +1,7 @@
 {
-  "name": "password-hash",
+  "name": "password-genie",
   "version": "1.0.0",
-  "description": "Module designed for creating and checking sha256 hashed passwords",
+  "description": "Module designed for creating and checking hashed passwords",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
