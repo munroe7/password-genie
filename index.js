@@ -20,7 +20,7 @@ methods.checkPassword = function (password, databasePassword, salt){
 
 methods.hashPassword = function (userpassword){
     var salt = genRandomString(16); /** Gives us salt of length 16 */
-    var hash = crypto.createHmac('sha256', salt); /** Hashing algorithm md5 */
+    var hash = crypto.createHmac('sha256', salt); /** Hashing algorithm sha256 */
     hash.update(userpassword);
     var value = hash.digest('hex');
     return {
