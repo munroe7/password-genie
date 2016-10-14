@@ -14,7 +14,7 @@ var databaseHash = '655bdbd8f1331c67c11609973479117951fb56e7c86b69c30048fda8241c
 var databaseSalt = '49f38160cb3e9708';
 
 if(genie.checkPassword(passwordToCheck, databaseHash, databaseSalt)){
-    console.log('Password matched.);
+    console.log('Password matched.');
 }else{
     console.log('Password did not match');
 }
