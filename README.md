@@ -40,7 +40,7 @@ console.log(hashedPassword.salt); //49f38160cb3e9708
 
 ## Built With
 
-* crypto.js
+* crypto-js
 
 
 ## Authors
