@@ -6,7 +6,7 @@ Module designed for easily creating and checking sha256 hashed passwords.
 
 The following example shows how you can check a password:
 
-```
+```js
 var genie = require('password-genie');
 
 var passwordToCheck = 'MYPASSWORD';
@@ -22,7 +22,7 @@ if(genie.checkPassword(passwordToCheck, databaseHash, databaseSalt)){
 
 The following example shows you how to hash a password:
 
-```
+```js
 var genie = require('password-genie');
 
 var passwordToHash = 'MYPASSWORD';
