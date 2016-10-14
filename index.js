@@ -25,7 +25,7 @@ methods.hashPassword = function (userpassword){
     var value = hash.digest('hex');
     return {
         salt:salt,
-        passwordHash:value
+        hash:value
     };
 };
 
