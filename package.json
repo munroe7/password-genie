@@ -1,6 +1,6 @@
 {
   "name": "password-genie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module designed for creating and checking hashed passwords",
   "main": "index.js",
   "scripts": {
